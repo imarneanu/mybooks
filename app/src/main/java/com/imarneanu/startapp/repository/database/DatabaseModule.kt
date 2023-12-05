@@ -8,10 +8,9 @@ val databaseModule = module {
     single {
         Room.databaseBuilder(
             androidContext(),
-            MyMedsDatabase::class.java,
-            MyMedsDatabase.DATABASE_NAME
+            MyDatabase::class.java,
+            MyDatabase.DATABASE_NAME
         )
-            .addMigrations(MyMedsDatabase.extendDatabaseMigration)
             .fallbackToDestructiveMigration()
             .build()
     }
