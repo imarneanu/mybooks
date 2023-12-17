@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.imarneanu.startapp"
+    namespace = "com.imarneanu.mybooks"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.imarneanu.startapp"
+        applicationId = "com.imarneanu.mybooks"
         minSdk = 26
         targetSdk = 33
         versionCode = 1

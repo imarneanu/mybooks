@@ -13,5 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "StartApp"
+rootProject.name = "MyBooks"
 include(":app")

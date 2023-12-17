@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <application
-        android:name="com.imarneanu.startapp.App"
+        android:name="com.imarneanu.mybooks.App"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -11,12 +11,12 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.StartApp"
+        android:theme="@style/Theme.MyBooks"
         tools:targetApi="31">
         <activity
-            android:name="com.imarneanu.startapp.ui.items.ItemsActivity"
+            android:name="com.imarneanu.mybooks.ui.books.BooksActivity"
             android:exported="true"
-            android:theme="@style/Theme.StartApp">
+            android:theme="@style/Theme.MyBooks">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -24,7 +24,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="com.imarneanu.startapp.ui.item.MyItemActivity"
+        <activity android:name="com.imarneanu.mybooks.ui.item.MyItemActivity"
             android:exported="false"/>
     </application>
 
